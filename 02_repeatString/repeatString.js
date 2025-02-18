@@ -5,9 +5,6 @@ const repeatString = function(string, num) {
      // Loop to display the string * num
     for(let i=1; i < count; i++) {
         repeatString = repeatString + string;
-        if(i === num) {
-            
-        }
     }
 
     if(num === 0) {
