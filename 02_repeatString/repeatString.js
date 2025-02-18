@@ -10,9 +10,6 @@ const repeatString = function(string, num) {
         }
     }
 
-    console.log(count);
-    console.log(num);
-
     if(num === 0) {
         return string = "";
     } else if(num < 0) {
