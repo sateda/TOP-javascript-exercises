@@ -1,14 +1,8 @@
 const reverseString = function(string) {
-    // Convert string to an array
     string = string.split("");
-    
-    let num = string.length;
     let reverseString = string.reverse();
-    //string = reverseString.toString();
-    //string = string.replaceAll(",", "");
-    
-    string = "";
 
+    string = "";
     reverseString.forEach(addToString);
 
     function addToString(value) {
@@ -16,13 +10,6 @@ const reverseString = function(string) {
     }
 
     return string;
-
-    // for(i=num; i<0; i--) {
-    //     reverseString    
-    // }
-
-
-    console.log(string);
 };
 
 // Do not edit below this line
